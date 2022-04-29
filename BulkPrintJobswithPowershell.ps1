@@ -7,7 +7,7 @@ $FileFullPath         = $null
 $PrinterSharePath     = '\\printserver\FollowMePrint'
 $PrinterName          = ($PrinterSharePath -split '\\')[-1]
 $CriticalErrorMessage = 'It seems we are facing a critical error, we are exiting the script, kindly inform service desk.'
- 
+
 sleep 5
 Function Get-FileName($initialDirectory)
 {  
